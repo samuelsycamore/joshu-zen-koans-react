@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body{
+  font-family: 'EB Garamond', serif;
+}
+
+h1, h2, button{
+  font-family:'Oswald', sans-serif;
+}
+
+h1, h2{
+  font-weight: 500;
+  line-height: 5rem;
+}
+
+h1, a{
+  background: linear-gradient(120deg, rgb(140,9,128) 15%, rgb(46,92,242) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: linear-gradient(120deg, rgba(140,9,128,0.5) 15%, rgba(46,92,242,0.5) 100%);
+    color: rgb(245, 245, 245);
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out,
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 2rem;
+}
+
+button:hover,
+button:focus {
+    background: linear-gradient(120deg, rgb(140,9,128) 15%, rgb(46,92,242) 100%);
+}
+
+button:focus {
+    outline: 1px dotted rgb(245, 245, 245);
+    outline-offset: -10px;
+
+}
+
+button:active {
+    transform: scale(0.99);
+}
