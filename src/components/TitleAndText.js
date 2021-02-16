@@ -4,7 +4,7 @@ export default function TitleAndText(props) {
 
   const { currentKoan } = props;
   return (
-    <div className="flex flex-col justify-center items-center max-w-2xl">
+    <div className="flex flex-col justify-center items-center max-w-xl">
       <h2 className="uppercase tracking-wider font-light text-2xl p-2 my-1">
         {currentKoan.title}
       </h2>
